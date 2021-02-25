@@ -9,9 +9,10 @@ class Dashboard extends Component {
             <div>
                 <center> <h1>Employee Details</h1><br /></center>
 
-                <Table striped bordered hover>
+                <Table striped bordered hover responsive>
                     <thead>
                         <tr style={{ backgroundColor: "rgb(144, 192, 192)" }}>
+                            <th>Id</th>
                             <th>Name</th>
                             <th>Age</th>
                             <th>Gender</th>
@@ -20,11 +21,13 @@ class Dashboard extends Component {
                         </tr>
                     </thead>
                     <tbody>
-
                         {data.user.map((emp) => {
                             return (
                                 <>
                                     <tr style={{ border: "1px solid black" }}>
+                                        <td style={{ border: "1px solid black" }}>
+                                            {emp.id}
+                                        </td>
                                         <td style={{ border: "1px solid black" }}>
                                             {emp.name}
                                         </td>
