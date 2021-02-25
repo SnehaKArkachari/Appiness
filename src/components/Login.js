@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import { Button, Card, Form } from 'react-bootstrap';
-import data from '../data.json';
 
 class Login extends Component {
 
