@@ -2,8 +2,6 @@ import React, { Component } from 'react'
 import { Button, Card, Form } from 'react-bootstrap';
 import data from '../data.json';
 
-const userDetails = data.details;
-
 class Login extends Component {
 
     state = {
