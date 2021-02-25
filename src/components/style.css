@@ -1,0 +1,5 @@
+html, body, #root, #root>div {
+    background-color: azure;
+    height: 100vh;
+    margin: 0;
+  }

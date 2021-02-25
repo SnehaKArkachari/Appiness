@@ -1,0 +1,50 @@
+{
+  "name": "assignment",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/icons": "^4.9.1",
+    "@trendmicro/react-sidenav": "^0.4.5",
+    "axios": "^0.21.1",
+    "link": "^0.1.5",
+    "material-icons": "^0.3.1",
+    "material-table": "^1.52.0",
+    "mdbreact": "^5.0.0",
+    "moment": "^2.27.0",
+    "mui-datatables": "^3.7.1",
+    "primeicons": "^4.1.0",
+    "primereact": "^5.0.1",
+    "react": "^16.10.2",
+    "react-bootstrap": "^1.2.2",
+    "react-calendar": "^3.1.0",
+    "react-dom": "^16.13.1",
+    "react-html-table-to-excel": "^2.0.0",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.2.0",
+    "react-select": "^3.1.1",
+    "styled-components": "^4.4.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
